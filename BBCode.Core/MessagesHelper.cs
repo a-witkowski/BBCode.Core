@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Resources;
-using System.Text;
+﻿using System.Resources;
 
-namespace CodeKicker.BBCode
+namespace CodeKicker.BBCode.Core
 {
     static class MessagesHelper
     {

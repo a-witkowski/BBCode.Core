@@ -1,10 +1,10 @@
-﻿using System;
+﻿using CodeKicker.BBCode.Core.SyntaxTree;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using CodeKicker.BBCode.SyntaxTree;
 using System.Diagnostics;
+using System.Linq;
 
-namespace CodeKicker.BBCode
+namespace CodeKicker.BBCode.Core
 {
     /// <summary>
     /// This class is useful for creating a custom parser. You can customize which tags are available

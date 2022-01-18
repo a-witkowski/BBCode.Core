@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net5.0;netstandard2.1;netstandard2.0;net45</TargetFrameworks>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <SignAssembly>False</SignAssembly>
+    <PackageProjectUrl>https://github.com/a-witkowski/BBCode.Core</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/a-witkowski/BBCode.Core</RepositoryUrl>
+    <PackageTags>bbcode</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Authors>Aleksander Witkowski</Authors>
+  </PropertyGroup>
+
+  <!-- .NET 4.5 -->
+  <ItemGroup Condition="'$(TargetFramework)' == 'net45'">
+    <Reference Include="System.Web" Version="4.5.0" />
+  </ItemGroup>
+
+</Project>
