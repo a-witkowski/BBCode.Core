@@ -9,6 +9,8 @@
     <PackageTags>bbcode</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Authors>Aleksander Witkowski</Authors>
+    <Description>CodeKicker.BBCode multi-targeting library</Description>
+    <Copyright>Copyright © $(Authors) 2022</Copyright>
   </PropertyGroup>
 
   <!-- .NET 4.5 -->
